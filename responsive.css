@@ -1,0 +1,121 @@
+@media (max-width: 991.98px) {
+  .navbar .container {
+    align-items: center;
+  }
+
+  .navbar-brand {
+    max-width: calc(100% - 76px);
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    margin-inline-start: auto;
+  }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    padding: 1rem 0;
+    text-align: start;
+  }
+
+  .navbar-nav {
+    align-items: stretch;
+    text-align: start;
+  }
+
+  .navbar-nav .nav-link {
+    padding-inline: 0;
+  }
+
+  .hero {
+    min-height: 780px;
+    padding-top: 88px;
+  }
+
+  .stats-strip {
+    margin-top: -42px;
+  }
+
+  .site-footer .row > [class*="col-"] {
+    text-align: start;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-padding {
+    padding: 64px 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 150px 0 112px;
+  }
+
+  .hero h1,
+  .page-hero h1 {
+    font-size: 2.25rem;
+    line-height: 1.16;
+  }
+
+  .hero p,
+  .page-hero p {
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    display: grid;
+    gap: 0.8rem;
+    justify-content: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .page-hero {
+    padding: 125px 0 72px;
+  }
+
+  .stat-card,
+  .glass-card,
+  .contact-card {
+    padding: 1.25rem;
+  }
+
+  .qr-wrap {
+    flex-wrap: wrap;
+  }
+
+  .cta-band .container {
+    text-align: start;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    max-width: calc(100% - 64px);
+    font-size: 0.95rem;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+  }
+
+  .stat-card strong {
+    font-size: 1.9rem;
+  }
+
+  .service-card,
+  .product-card-body,
+  .contact-card,
+  .glass-card {
+    padding: 1rem;
+  }
+
+  .site-footer .col-6 {
+    width: 100%;
+  }
+
+}
