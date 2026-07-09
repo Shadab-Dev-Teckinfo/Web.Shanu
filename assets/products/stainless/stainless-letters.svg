@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Stainless steel letters">
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#e2e8f0"/><stop offset="1" stop-color="#f8fafc"/></linearGradient><linearGradient id="steel" x1="0" x2="1"><stop stop-color="#94a3b8"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#64748b"/></linearGradient></defs>
+  <rect width="900" height="560" fill="url(#bg)"/><rect x="82" y="95" width="736" height="370" rx="18" fill="#0f172a"/>
+  <text x="450" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="136" font-weight="900" fill="url(#steel)">STEEL</text>
+  <rect x="160" y="374" width="580" height="12" rx="6" fill="#38bdf8"/>
+</svg>
