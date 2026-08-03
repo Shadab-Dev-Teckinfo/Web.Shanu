@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F7FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F6BFF"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F6BFF"/>
+      <stop offset="100%" stop-color="#6EC6FF"/>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="12"
+        flood-color="#4A7CFF" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8FBFF"/>
+
+  <!-- Main Card -->
+  <rect x="120" y="70"
+        width="560"
+        height="320"
+        rx="30"
+        fill="url(#bg)"
+        stroke="url(#border)"
+        stroke-width="8"
+        filter="url(#shadow)"/>
+
+  <!-- Decorative Circle -->
+  <circle cx="170" cy="120" r="18" fill="#56B6FF" opacity=".4"/>
+  <circle cx="630" cy="330" r="28" fill="#2F6BFF" opacity=".15"/>
+
+  <!-- Plastic Shine -->
+  <path d="M145 90
+           Q300 30 520 90
+           L630 90
+           Q520 120 250 120
+           Z"
+        fill="#fff"
+        opacity=".35"/>
+
+  <!-- Text -->
+  <text x="400"
+        y="215"
+        text-anchor="middle"
+        font-family="Poppins, Arial, sans-serif"
+        font-size="70"
+        font-weight="800"
+        fill="#14213D"
+        letter-spacing="4">
+      PLASTIC
+  </text>
+
+  <!-- Accent Line -->
+  <line x1="250"
+        y1="255"
+        x2="550"
+        y2="255"
+        stroke="url(#line)"
+        stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Small Tag -->
+  <rect x="325"
+        y="285"
+        width="150"
+        height="38"
+        rx="20"
+        fill="#2F6BFF"/>
+
+  <text x="400"
+        y="311"
+        text-anchor="middle"
+        font-family="Poppins, Arial, sans-serif"
+        font-size="18"
+        font-weight="600"
+        fill="white">
+      PREMIUM
+  </text>
+
+</svg>
