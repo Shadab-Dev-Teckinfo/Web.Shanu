@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Zincor letters">
+  <rect width="900" height="560" fill="#f8fafc"/><rect x="70" y="85" width="760" height="390" rx="18" fill="#dbeafe"/>
+  <path d="M205 340h490v64H205z" fill="#0f172a" opacity=".16"/><text x="450" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="118" font-weight="900" fill="#2563eb">ZINCOR</text>
+  <path d="M180 395h540" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+</svg>
